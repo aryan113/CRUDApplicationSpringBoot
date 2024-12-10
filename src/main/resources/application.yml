@@ -1,0 +1,17 @@
+spring:
+  h2:
+    console:
+      enabled: 'true'
+  datasource:
+    username: sa
+    url: jdbc:h2:mem:dcbapp
+    driveClassName: org.h2.Driver
+    password: password
+  application:
+    name: springBoot1
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+welcome:
+  message: Welcome to World!
+server:
+  port: '8082'
